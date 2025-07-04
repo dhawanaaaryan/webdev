@@ -6,7 +6,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const app=express();
 
-
+//new git push
 app.get("/",(req,res)=>{
     const today = new Date("15-06-2025");
     let d=today.getDay();
